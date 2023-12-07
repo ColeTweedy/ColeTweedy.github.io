@@ -1,0 +1,295 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.background{
+    display: flex;
+    min-width: 100%;
+    min-height: 100%;
+    background-color:black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+
+#main_container{
+    display: flex;
+    min-height:450px;
+    min-width: 450px;
+    width: 50%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    margin: auto;
+    background-color: black;
+    aspect-ratio: 1 / 1;
+}
+
+#main_container_mouse{
+    display: flex;
+    min-height:450px;
+    min-width: 450px;
+    width: 50%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    margin: auto;
+    background-color: black;
+    aspect-ratio: 1 / 1;
+}
+
+.Container{
+    display: flex;
+    min-height:450px;
+    min-width: 450px;
+    width: 50%;
+   
+    background-color: gainsboro;
+    aspect-ratio: 1 / 1;
+    margin: auto;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-size:80px;
+    font-style:bold; 
+    color:black;
+    font-family: serif;
+}
+
+.back_button{
+    width: 70%;
+    margin: 16%;
+}
+
+#win_back{
+    size:25%;
+    margin: auto;
+    
+}
+
+#level_one_button{
+    width: 70%;
+    margin: 16%;
+}
+
+#level_two_button{
+    width: 70%;
+    margin: 16%;
+}
+
+#level_three_button{
+    width: 70%;
+    margin: 16%;
+}
+
+#lose_restart{
+    width: 70%;
+    margin: 16%;
+}
+
+#lose_start{
+    width: 70%;
+    margin: 16%;
+}
+
+.end_image{
+    width: 50%;
+    margin: auto;
+    padding-bottom: 7%;
+}
+
+img{
+    width:25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+.flex-group{
+    display: flex;
+
+}
+.grid_box{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 0px solid rgba(0, 0, 0, 0.8);
+    padding: 0px;
+    font-size:10px;
+    text-align: center;
+    object-fit: cover;
+
+}
+
+.grid_box:hover{
+    background-color: yellowgreen;
+}
+
+.wall{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+.start{
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    color: red;
+}
+
+.path{
+    background-color: yellow;
+    height: 100%;
+    width: 100%;
+    font-size: xx-large;
+}
+
+.end{
+    background-color: green;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(Images.final/chris-abney-qLW70Aoo8BE-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+header {
+    padding: 20px;
+}
+
+nav {
+    margin-top: 20px;
+    margin:auto;
+}
+
+nav button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#start-button {
+    padding: 20px 40px;
+    font-size: 24px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+
+
+/* FEEDBACK FORM!!!!!!!!!!!! */
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.bros {
+    size:10%;
+    margin: auto;
+
+}
+
+.body_container{
+    font-family: serif;
+    background-color: gainsboro;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+.container_credits {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #000000;
+    
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+
+h2 {
+    font-size: 70px;
+    color: #000000;
+}
+
+h1 {
+    font-size: larger;
+    color: #000000;
+}
+
+#column{
+    color: black;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credits</title>
+   
+    <link href="css/maze.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div class="body_container">
+
+    <div class="container_credits">
+        <h2 style="color: #000000;">Credits</h2>
+
+    <div id="container_bottom">
+    <div class="column">
+        <h1>Cole Tweedy</h1>
+        <p>My name is Cole Tweedy and I'm awesome and 6'3'' btw. I've been described what you called "Ingenious", not a first but certaintly not the last. In my free time I teach html homeless people</p>
+        <h3>Anthony Reyna</h3>
+        <p>After studying at Stanford for fours years and graduating early with a doctorate I teammed up with the renowned Cole Tweedy to create the next generation of website experiences</p>
+
+    <div id="images/thumbnail_IMG_1120.jpg">
+        <img class="bros" src="images/thumbnail_IMG_1120.jpg" alt="Obama">
+    </div>
+
+        <a href="https://eelslap.com/">Read more here...</a>
+    </div>
+
+    <div class="flex-group">
+
+        <div id="back_button">
+            <a href="./index.html" ><img id="win_back" src="images/back_green.png" alt="win_back" onmouseover="changeIcon()" onmouseleave="restoreIcon()"></a>
+        </div>
+    </div>
+
+</div>
+</body>
+
+<script>
+    document.getElementById('submit').addEventListener('click', function() { window.location.href = 'index.html';
+        
+    });
+
+    function changeIcon(){
+                document.getElementById("win_back").src = "./images/back_blue.png";
+            }
+
+            function restoreIcon(){
+                document.getElementById("win_back").src= "./images/back_green.png";
+            }
+</script>
+
+</html>

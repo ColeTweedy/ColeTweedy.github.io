@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtmll/DTD/xhtmll-transitional.dtd">
+<html>
+    <head>
+        <link href="css/maze.css" rel="stylesheet"
+        type="text/css">
+    </head>
+
+    <body>
+        <div class="Container">
+            <div class="heading">YOU WIN!<div>
+
+            <div id ="win_image">
+                    <img class="end_image" src="images/Obama.jpg" alt="Obama">
+            </div>
+
+            <div class="flex-group">
+
+                <div id="back_button">
+                    <a href="./index.html" ><img id="win_back" src="images/back_green.png" alt="win_back" onmouseover="changeIcon()" onmouseleave="restoreIcon()"></a>
+                </div>
+            </div>
+
+        </div>
+
+        <script>
+            function changeIcon(){
+                document.getElementById("win_back").src = "./images/back_blue.png";
+            }
+
+            function restoreIcon(){
+                document.getElementById("win_back").src= "./images/back_green.png";
+            }
+        </script>
+    </body>
+</html>

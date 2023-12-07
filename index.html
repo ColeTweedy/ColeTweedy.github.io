@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtmll/DTD/xhtmll-transitional.dtd">
+<html>    
+<head>
+    <link href="css/maze.css" rel="stylesheet" type="text/css">
+
+    <title>Temple Escape</title>
+
+</head>
+<body>
+    <div class="Container">
+    <div class="heading">Maze Escape<div>
+    <div class="flex-group">    
+    <nav>
+        <button id="credits-button">Credits</button>
+        <button id="feedback-button">Feedback</button>
+    </nav>
+<!--FEEDBACK FORM!!!-->
+  
+</div>
+
+
+        <div class="flex-group">
+            <div id="level1button">
+                <a href="./mouse2.html" ><img id="level_one_button" src="images/Level_1_button_green.png" alt="win_back" onmouseover="changeIconOne()" onmouseleave="restoreIconOne()">
+                </a>
+            </div>
+
+            <div id="level2button">
+                <a href="./mouse.html" ><img id="level_two_button" src="images/Level_2_button_green.png" alt="win_back" onmouseover="changeIconTwo()" onmouseleave="restoreIconTwo()">
+                </a>
+                </div>
+
+                <div id="level3button">
+                    <a href="./mouse3.html" ><img id="level_three_button" src="images/Level_3_button_green.png" alt="win_back" onmouseover="changeIconThree()" onmouseleave="restoreIconThree()">
+                    </a>
+                </div>
+    </div>
+</div>
+</body>
+<script>
+    document.getElementById('feedback-button').addEventListener('click', function() { window.location.href = 'feedback.html';
+        
+    });
+
+    document.getElementById('credits-button').addEventListener('click', function() { window.location.href = 'credits.html';
+        
+    });
+
+
+
+            function changeIconOne(){
+                document.getElementById("level_one_button").src = "./images/Level_1_button_blue.png";
+            }
+
+            function restoreIconOne(){
+                document.getElementById("level_one_button").src= "./images/Level_1_button_green.png";
+            }
+
+            function changeIconTwo(){
+                document.getElementById("level_two_button").src = "./images/Level_2_button_blue.png";
+            }
+
+            function restoreIconTwo(){
+                document.getElementById("level_two_button").src= "./images/Level_2_button_green.png";
+            }
+
+            function changeIconThree(){
+                document.getElementById("level_three_button").src = "./images/Level_3_button_blue.png";
+            }
+
+            function restoreIconThree(){
+                document.getElementById("level_three_button").src= "./images/Level_3_button_green.png";
+            }
+</script>
+</html>

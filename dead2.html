@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtmll/DTD/xhtmll-transitional.dtd">
+<html>
+    <head>
+        <link href="css/maze.css" rel="stylesheet"
+        type="text/css">
+    </head>
+
+    <body>
+        <div class="Container">
+            <div class="heading">YOU ARE DEAD!<div>
+
+                <div id ="win_image">
+                    <img class="end_image" src="images/Peter_Griffin.jpg" alt="Obama">
+                </div>
+
+                <div class="flex-group">
+                    <div id="back_button">
+                        <a href="./index.html"><img id="lose_start" src="images/back_green.png" alt="back_button" onmouseover="changeIconStart()" onmouseleave="restoreIconStart()"></a>
+                    </div>
+        
+                    <div id="restart_button">
+                        <a href="./mouse2.html"><img id="lose_restart" src="images/Restart_button_green.png" alt="back_button" onmouseover="changeIconRestart()" onmouseleave="restoreIconRestart()"> </a>
+                    </div>
+                </div>
+            
+        </div>
+
+        <script>
+            function changeIconRestart(){
+                document.getElementById("lose_restart").src = "./images/Restart_button_blue.png";
+            }
+
+            function restoreIconRestart(){
+                document.getElementById("lose_restart").src= "./images/Restart_button_green.png";
+            }
+
+            function changeIconStart(){
+                document.getElementById("lose_start").src = "./images/back_blue.png";
+            }
+
+            function restoreIconStart(){
+                document.getElementById("lose_start").src= "./images/back_green.png";
+            }
+        </script>
+    </body>
+</html>
